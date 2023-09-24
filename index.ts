@@ -22,7 +22,7 @@ async function main() {
       profile: true,
     }
   })
-  console.dir(allUsers)
+  console.dir(allUsers, { depth: null })
 }
 
 main()
